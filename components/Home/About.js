@@ -1,18 +1,14 @@
-import style from '../../styles/components/About.module.css';
-import Image from 'next/image';
-import photo from '../../public/assets/images/Berke.jpg';
-
 
 function About(){
     return (
-        <section id={style['about']}>
-            <div id={style['photo']}>
+        <section id='about'>
+            <div id='photo'>
                 <figure>
                     <img src='/assets/images/Berke.jpg' layout='intrinsic' />
                     <figcaption style={{marginTop: "15px"}}>Berke's Photo</figcaption>
                 </figure>
             </div>
-            <div id={style['info']}>
+            <div id='info'>
                 <h1 style={{fontSize:"3.6rem"}}>Hi I'm Berke</h1>
                 <h3 style={{color: "brown",fontStyle: "italic"}}>a Developer</h3>
                 <p>

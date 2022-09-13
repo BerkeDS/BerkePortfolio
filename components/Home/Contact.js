@@ -1,14 +1,14 @@
-import style from '../../styles/components/Contact.module.css';
+
 
 function Contact(){
     return (
-        <section id={style['contact']}>
+        <section id='contact'>
             <h1>Let's work together</h1>
-            <div className={style['email-container']}>
+            <div className='email-container'>
                 <img src='/assets/icons/mail.png' />
-                <p className={style['email']}>berke.d.sefik@gmail.com</p>
+                <p className='email'>berke.d.sefik@gmail.com</p>
             </div>
-            <div className={style['social-media']}>
+            <div className='social-media'>
                 <a href='https://www.linkedin.com/in/berkesefik' id='linked-in'>
                     <img src='/assets/icons/linkedin.png' />
                 </a>
