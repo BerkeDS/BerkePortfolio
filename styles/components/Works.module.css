@@ -1,0 +1,21 @@
+#works{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20;
+    width: 70vw;
+    margin-top: 5vh;
+    position: relative;
+}
+#scroll-target-works{
+    position: absolute;
+    top: -10vh;
+}
+.card-container{
+    margin-bottom: 5vh;
+    width: 100%;
+}
+.card-container h2{
+    margin-bottom: 2vh;
+    font-size: 2.5em;
+}

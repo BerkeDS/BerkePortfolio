@@ -1,0 +1,66 @@
+.card{
+    position: relative;
+    margin-top: 7vh;
+    width: 60%;
+    max-height: 15vh;
+    border: 1px solid rgba(255, 255, 255, .7);
+    border-radius: 25px;
+    overflow: hidden;
+    transition: .7s;
+}
+.card.active{
+    width: 100%;
+
+    max-height: 150vh;
+    height: auto;
+}
+
+.card h2{
+    font-size: calc(10px + 2vmin);
+    margin: 2vh 3vh;
+}
+.card a{
+    color: #fff;
+    font-style: italic;
+    margin: 2vh 3vh;
+    padding: 1vh;
+    padding-left: 2vh;
+}
+.card h3{
+    margin: 2vh 3vh;
+    margin-top: 5vh;
+}
+.card p{
+    margin: 2vh 3vh;
+    padding: 1vh;
+    padding-left: 2vh;
+    line-height: 5vh;
+}
+#icon{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-size: calc(15px + 4vmin);;
+    color: rgba(255, 255, 255, .6);
+}
+#icon:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+    .card{
+        width: 100%;
+    }
+    .card.active{
+        max-height: 190vh;
+    }
+}
+@media screen and (max-width:550px) {
+    .card{
+        max-height: 12vh;
+    }
+    #icon{
+        top: 15px;
+        right: 15px;
+    }
+}
