@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 
 export default function netPage(){
@@ -20,7 +21,7 @@ export default function netPage(){
 </Head>
 <main id="net-page">
     <header>
-        <a href="#" className="logo"><img src="/assets/images/logo.png" alt="" /></a>
+        <a href="#" className="logo">{/*<img src="/assets/images/logo.png" alt="" />*/}<Image src="/assets/images/logo.png" alt="" width={200} height={50} /></a>
         <ul className="navigation">
             <li><a href="#">Home</a></li>
             <li><a href="#">TV Shows</a></li>

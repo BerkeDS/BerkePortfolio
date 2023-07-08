@@ -3,7 +3,7 @@
 function Contact(){
     return (
         <section id='contact'>
-            <h1>Let's work together</h1>
+            <h1>Let&apos;s work together</h1>
             <div className='email-container'>
                 <img src='/assets/icons/mail.png' />
                 <p className='email'>berke.d.sefik@gmail.com</p>

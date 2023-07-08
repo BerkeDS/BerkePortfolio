@@ -59,7 +59,7 @@ export default function Technical(){
 
         <section id="Selectors" className="main-section">
             <header>Selectors</header>
-            <p>CSS selectors are used to <code> "find" (or select) the  </code>HTML elements you want to style.
+            <p>CSS selectors are used to <code> &quot;find&quot; (or select) the  </code>HTML elements you want to style.
 
                 We can divide CSS selectors into five categories:</p>
             <ul>
@@ -80,7 +80,7 @@ export default function Technical(){
 
         <section id="Borders" className="main-section">
             <header>Borders</header>
-            <p>The CSS border properties allow you to specify the style, width, and color of an element's border.</p>
+            <p>The CSS border properties allow you to specify the style, width, and color of an element&apos;s border.</p>
             <p>The border-style property specifies what kind of border to display.</p>
             <ul>
                 <li><code className="w3-codespan">dotted</code> - Defines a dotted border</li>
@@ -105,13 +105,13 @@ export default function Technical(){
 
         <section id="Padding" className="main-section">
             <header>Padding</header>
-            <p>The CSS padding properties are used to generate space around an element's content, inside of any defined borders.</p><br />
+            <p>The CSS padding properties are used to generate space around an element&apos;s content, inside of any defined borders.</p><br />
             <p>With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).</p>
         </section>
 
         <section id="Links" className="main-section">
             <header>Links</header>
-            <p>When styling links, it's important to understand how to make use of pseudo-classes to style their states effectively. It's also important to know how to style links for use in common interface features whose content varies, such as navigation menus and tabs. We'll look at both these topics in this article.</p>
+            <p>When styling links, it&apos;s important to understand how to make use of pseudo-classes to style their states effectively. It&apos;s also important to know how to style links for use in common interface features whose content varies, such as navigation menus and tabs. We&apos;ll look at both these topics in this article.</p>
         </section>
 
         <section id="Lists" className="main-section">
