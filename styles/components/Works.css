@@ -1,4 +1,4 @@
-#works{
+#root #works{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -7,15 +7,14 @@
     margin-top: 5vh;
     position: relative;
 }
-#scroll-target-works{
+#root #scroll-target-works{
     position: absolute;
     top: -10vh;
 }
-.card-container{
+#root .card-container{
     margin-bottom: 5vh;
     width: 100%;
 }
-.card-container h2{
+#root .card-container h2{
     margin-bottom: 2vh;
-    font-size: 2.5em;
 }

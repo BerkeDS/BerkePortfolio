@@ -1,8 +1,8 @@
-import style from '../../styles/components/Header.module.css';
+
 
 function Header(){
     return (
-        <section id={style['header']}>
+        <section id='header'>
             <nav>
                 <a href='#about'>About</a>
                 <a href='#scroll-target-works'>Works</a>

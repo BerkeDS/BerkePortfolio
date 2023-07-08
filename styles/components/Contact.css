@@ -1,46 +1,46 @@
-#contact{
+#root #contact{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-#contact h1{
+#root #contact h1{
     font-size: calc(25px + 10vmin);
     margin: 4vh;
     margin-top: 7vh;
     text-align: center;
 }
-#contact .email-container{
+#root #contact .email-container{
     display: flex;
     justify-content: center;
     align-items: center;
     transform: scale(.7);
     margin: 3vh 2vw;
 }
-#contact .email-container img{
+#root #contact .email-container img{
     width: 70px;
     height: 70px;
     margin-right: 10px;
     background-color: #fff;
     clip-path: polygon(0 20%, 100% 20%, 100% 80%, 0 80%);
 }
-#contact .email-container .email{
+#root #contact .email-container .email{
     font-size: 2rem;
 }
-#contact .social-media{
+#root #contact .social-media{
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 4vw;
 }
-#contact .social-media a img{
+#root #contact .social-media a img{
     width: 50px;
     height: 50px;
     background: #fff;
     border-radius: 50%;
     transition: transform .4s
 }
-#contact .social-media a img:hover{
+#root #contact .social-media a img:hover{
     transform: scale(1.3);
     box-shadow: 0 0 5px 2px rgba(255, 255, 255, .4);
 }

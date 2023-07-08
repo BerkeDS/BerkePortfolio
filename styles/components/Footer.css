@@ -1,0 +1,30 @@
+#root #footer{
+    margin-top: 11vh;
+    width: 70vw;
+}
+#root #footer hr{
+    margin: 4vh 0;
+}
+#root #footer a{
+    color: #fff;
+}
+#root #footer .link-container{
+    display: flex;
+    justify-content: space-between;
+}
+#root #footer .link-container .page-links{
+    display: flex;
+    column-gap: 2vw;
+}
+#root #footer .link-container .page-links a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:950px) {
+    #root #footer .link-container{
+        flex-direction: column;
+        row-gap: 5vh;
+        justify-content: center;
+        align-items: center;
+    }
+}

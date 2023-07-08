@@ -1,0 +1,50 @@
+#tribute{
+    margin: 50px auto;
+    width: 70%;
+    background-color: #ebebebd1;
+    border-radius: 10px;
+}
+#tribute h1{
+    margin-bottom: 0;
+}
+#tribute > p {
+    margin-top: 0;
+    font-size: 1rem;
+}
+#tribute #img-div{
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#tribute #image{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+#tribute #img-caption{
+    font-size: 1rem;
+}
+#tribute #tribute-info{
+    max-width: 85%;
+    margin: 0 auto;
+}
+#tribute h3{
+    margin-top: 2.5em;
+}
+#tribute li{
+    text-align: left;
+    margin-bottom: 1em;
+    font-size: 0.8em;
+}
+#tribute #sen{
+    margin: 30px auto;
+    font-size: 0.7em;
+    width: 80%;
+    text-align:left;
+}
+#tribute span{
+    font-size: 0.8em;
+}

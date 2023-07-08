@@ -1,0 +1,44 @@
+#root #header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: brown;
+    z-index: 10;
+}
+#root #header nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4vw;
+    column-gap: 2vw;
+}
+#root #header nav a{
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: calc(10px + 2vmin);
+
+    /* Başlık çerçeve düzenleme
+    border-radius: 10px;
+    border-style: dotted;
+    */
+
+}
+#root #header nav a:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+@media screen and (max-width:900px) {
+    #root #header nav{
+        flex-direction: column;
+        align-items: center;
+        column-gap: 0;
+    }
+    #root #header nav a{
+        padding: 5px;
+        width: 100%;
+        text-align: center;
+    }
+    #root #header nav{
+        margin-right: 0;
+    }
+}

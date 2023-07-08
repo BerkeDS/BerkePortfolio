@@ -1,21 +1,21 @@
-#certificates{
+#root #certificates{
     position: relative;
 }
-#scroll-target-certificate{
+#root #scroll-target-certificate{
     position: absolute;
     top: -10vh;
 }
-#certificates h1{
+#root #certificates h1{
     text-align: center;
     padding: 5px;
     font-size: calc(5px + 7vmin);
     text-transform: uppercase;
     letter-spacing: calc(2px + 0.8vw);
 }
-#certificates hr{
+#root #certificates hr{
     margin: 4vh 0;
 }
-#certificatesC{
+#root #certificatesC{
     display: flex;
     justify-content: space-evenly;
     row-gap: 3vh;

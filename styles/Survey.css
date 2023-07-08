@@ -1,0 +1,50 @@
+#survey {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+      color: #f5f6f7;
+    font-family: Tahoma;
+      font-size: 17px;
+  }
+  #survey header {
+    text-align: center;
+  }
+  #survey form{
+    max-width: 600px;
+    min-width:200px;
+    margin: 0 auto;
+  }
+  #survey fieldset{
+    border: 0;
+    padding:2em 0;
+  }
+  #survey fieldset:not(:last-of-type){
+    border-bottom: 3px solid #3b3b4f;
+  }
+  #survey label{
+    display: block;
+    margin: 0.5rem 0;
+  }
+  #survey input,#survey textarea,#survey select{
+    width: 100%;
+    margin: 0.1em 0 0.8em 0;
+    min-height: 2em;
+  }
+
+  #survey .inline{
+    width: unset;
+    margin: 0 0.2em 0 0;
+    vertical-align: middle;
+  }
+  #survey input[type="submit"]{
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+    color: white;
+  }

@@ -1,0 +1,85 @@
+#technical #navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 290px;
+    width: 300px;
+    height: 100%;
+    border-right: 2px solid gray;
+}
+
+#technical header{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+#technical .nav-link{
+    text-decoration: none;
+    color: rgb(0, 0, 0,80%);
+    border-bottom: 1px solid gray;
+    padding: 20px 10px;
+    display: block;
+    font-size: 1.1rem;
+}
+#technical #a_last{
+    border-bottom: none;
+}
+#technical #navbar header{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+#technical #navbar ul{
+    list-style-type: disc;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block;
+    height: 88%;
+}
+
+#technical #main-doc{
+    margin-left: 330px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#technical #main-doc li{
+    padding: 4px 0;
+}
+#technical #main-doc p{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+}
+#technical section header{
+    margin: 15px 0px;
+}
+#technical figure{
+    margin: 50px 30px;
+}
+#technical img{
+    max-width: 70%;
+    height: auto;
+}
+#technical #Reference{
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 815px) {
+    #technical #main-doc{
+        margin-left: 30px;
+        margin-top: 400px;
+    }
+    #technical #navbar {
+        position: absolute;
+        width: 100%;
+        max-height: 350px;
+        border-bottom: 2px solid gray;
+        margin: 0;
+        z-index: 1;
+        background-color: white;
+    }
+    #technical #navbar ul{
+        padding: 0;
+        margin: 0;
+    }
+}

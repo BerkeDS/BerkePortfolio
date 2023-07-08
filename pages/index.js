@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import style from '../styles/Home.module.css'
 
 import App from '../components/Home/App.js';
+
 import { Provider } from 'react-redux'
 import store from '../store/store';
 
@@ -14,7 +14,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main id={style['root']}>
+            <main id='root'>
                 <Provider store={store}>
                     <App />
                 </Provider>
