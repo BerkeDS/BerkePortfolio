@@ -18,7 +18,7 @@ function Card(props){
     return(
             <div className={`card ${a}`}>
                 <h2>{card.projectName}</h2>
-                <a href={card.projectLink}>{card.projectLinkText}</a>
+                <a href={card.projectLink} target="_blank" rel="noreferrer" >{card.projectLinkText}</a>
                 <h3>What is {card.projectName}</h3>
                 <p>{card.description}</p>
                 <h3>Tecnologies</h3>
