@@ -4,26 +4,82 @@ const initialState = {
     value: [
         {
             id: 1,
-            projectName: "Sea Level Predictor",
+            projectName: "Türkiye Earthquake Predictor",
             projectLink: "/assets/documents/seaLevelPredictor.pdf",
-            projectLinkText: "PDF dosyasına git",
-            description:  "Predict the future sea level with the data",
+            projectLinkText: "coming soon...",
+            description:  "Predict the future earthquakes with earthquake data from boğaziçi university",
             tecnologies: "python(pandas, seaborn, scipy), Jupyter-lab",
             classes: false,
             type: "work"
         },
         {
             id: 2,
-            projectName: "Geliyo",
-            projectLink: "çipetpet.com",
-            projectLinkText: "Go to bomba",
-            description:  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non nunc diam. Curabitur tincidunt dui neque, non mattis ex pellentesque sit amet. Aenean elementum, velit id elementum commodo, augue neque faucibus purus, id convallis massa augue vulputate ipsum. Donec nec euismod nisl. Vivamus ut dolor vitae sem porta facilisis nec in nunc. Ut tempus ipsum vulputate tortor auctor lobortis. Etiam est justo, interdum eu augue vulputate, laoreet tempus odio. Praesent pellentesque ex ac tellus pulvinar aliquet. Suspendisse in turpis urna. Aliquam aliquet pulvinar augue vel accumsan. Duis sapien felis, tincidunt in congue ac, varius in risus. Nam vitae ultricies dui. In leo augue, molestie at iaculis et, pellentesque vel ligula. Proin id odio nec justo iaculis interdum.",
-            tecnologies: "React, Redux",
+            projectName: "Steam Web Scrapping and Analyz",
+            projectLink: "on the way",
+            projectLinkText: "on the way",
+            description:  "collect data from steam and analyze with python",
+            tecnologies: "sql, python(beatifulsoup, pandas, seaborn, matplotlib), Jupyter-lab",
             classes: false,
             type: "work"
         },
         {
             id: 3,
+            projectName: "Student Management System",
+            projectLink: "/assets/documents/seaLevelPredictor.pdf",
+            projectLinkText: "coming soon...",
+            description:  "Predict the future sea level with the data",
+            tecnologies: "python(pandas, seaborn, scipy), Jupyter-lab",
+            classes: false,
+            type: "work"
+        },
+
+
+        {
+            id: 4,
+            projectName: "Sea Level Predictor",
+            projectGitLink: "https://github.com/BerkeDS/DataAnalyzPrac/tree/main/SeaLevelPredictor",
+            projectLink: "/assets/documents/seaLevelPredictor.pdf",
+            projectLinkText: "PDF dosyasına git",
+            description:  "Predict the future sea level with the data",
+            tecnologies: "python(pandas, seaborn, scipy), Jupyter-lab",
+            classes: false,
+            type: "practice"
+        },
+        {
+            id: 5,
+            projectName: "Medical Data Analyze",
+            projectGitLink: "https://github.com/BerkeDS/DataAnalyzPrac/tree/main/MedicalDataAnalyz",
+            projectLink: "/assets/documents/medicalAnalyz.pdf",
+            projectLinkText: "PDF dosyasına git",
+            description:  "Analysis and Visualize of medical data",
+            tecnologies: "python(numpy, pandas, seaborn, matplotlib), Jupyter-lab",
+            classes: false,
+            type: "practice"
+        },
+        {
+            id: 6,
+            projectName: "Demographic Data Analyz",
+            projectGitLink: "https://github.com/BerkeDS/DataAnalyzPrac/tree/main/DemographicDataAnalyzer",
+            projectLink: "/assets/documents/demographicDataAnalyzer.pdf",
+            projectLinkText: "PDF dosyasına git",
+            description:  "Analysis of Demographic data",
+            tecnologies: "python(pandas), Jupyter-lab",
+            classes: false,
+            type: "practice"
+        },
+        {
+            id: 7,
+            projectName: "Page View Visualizer",
+            projectGitLink: "https://github.com/BerkeDS/DataAnalyzPrac/tree/main/PageViewTimeSeriesVisualizer",
+            projectLink: "/assets/documents/timeVisualizer.pdf",
+            projectLinkText: "PDF dosyasına git",
+            description:  "Visualizing page views based on years and months",
+            tecnologies: "python(pandas, seaborn, matplotlib), Jupyter-lab",
+            classes: false,
+            type: "practice"
+        },
+        {
+            id: 8,
             projectName: "Netflix Page",
             projectLink: "/netPage",
             projectLinkText: "Go to page",
@@ -32,7 +88,7 @@ const initialState = {
             type: "practice"
         },
         {
-            id: 4,
+            id: 9,
             projectName: "Product Landing Page",
             projectLink: "/product",
             projectLinkText: "Go to page",
@@ -42,7 +98,7 @@ const initialState = {
             type: "practice"
         },
         {
-            id: 5,
+            id: 10,
             projectName: "Technical Documentation Page",
             projectLink: "/technical",
             projectLinkText: "Go to page",
@@ -52,7 +108,7 @@ const initialState = {
             type: "practice"
         },
         {
-            id: 6,
+            id: 11,
             projectName: "Tribute Page",
             projectLink: "/tribute",
             projectLinkText: "Go to page",
@@ -62,7 +118,7 @@ const initialState = {
             type: "practice"
         },
         {
-            id: 7,
+            id: 12,
             projectName: "Survey Form",
             projectLink: "/survey",
             projectLinkText: "Go to page",

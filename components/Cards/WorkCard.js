@@ -18,6 +18,13 @@ function Card(props){
     return(
             <div className={`card ${a}`}>
                 <h2>{card.projectName}</h2>
+                {
+                    card.projectGitLink != undefined ? (
+                        <a href={card.projectGitLink} target="_blank" rel="noreferrer">
+                            Go to Github Page
+                        </a>
+                    ) : null
+                }
                 <a href={card.projectLink} target="_blank" rel="noreferrer" >{card.projectLinkText}</a>
                 <h3>What is {card.projectName}</h3>
                 <p>{card.description}</p>
