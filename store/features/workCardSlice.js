@@ -15,9 +15,10 @@ const initialState = {
         {
             id: 2,
             projectName: "Steam Web Scrapping and Analyz",
-            projectLink: "on the way",
-            projectLinkText: "on the way",
-            description:  "collect data from steam and analyze with python",
+            projectGitLink: "https://github.com/BerkeDS/SteamWebScrapingAndAnalyze/tree/master",
+            projectLink: "/assets/documents/steamAnalysis.pdf",
+            projectLinkText: "Open Analysis Result",
+            description:  "Collect Steam data and analyze it with Python(pandas, jupyterlab) First run the gatherLinks.py for collecting data from steam web page, this procces may take a while. And run the cleanData.py for filling the percentage column finally analyze with steamAnalysis.ipynp use jupyter lab to open this file.",
             tecnologies: "sql, python(beatifulsoup, pandas, seaborn, matplotlib), Jupyter-lab",
             classes: false,
             type: "work"
