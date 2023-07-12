@@ -44,6 +44,11 @@
     font-size: 1rem;
     line-height: 3.4vh;
 }
+#root #info p a{
+    display: block;
+    color: white;
+    margin-top: 0.7vh;
+}
 
 @media screen and (max-width:1250px) {
     #root #about{
