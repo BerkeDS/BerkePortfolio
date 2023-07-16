@@ -21,7 +21,7 @@ function About(){
                     <a href="https://github.com/BerkeDS" target="_blank" rel="noreferrer">Github Profile</a>
                     <a href="https://www.freecodecamp.org/BerkeDS" target="_blank" rel="noreferrer">FreeCodeCamp Profile</a>
                     <a href="https://www.hackerrank.com/berke_d_sefik?h_r=internal-search&hr_r=1" target="_blank" rel="noreferrer">Hackerrank Profile</a>
-                    <a href="/assets/documents/Universite.pdf" target="_blank" rel="noreferrer">CV</a>
+                    <a href="/assets/documents/Berke Demir ŞEFİK CV.pdf" target="_blank" rel="noreferrer">CV</a>
                 </p>
             </div>
         </section>
