@@ -33,10 +33,20 @@ const initialState = {
             classes: false,
             type: "work"
         },
+        {
+            id: 4,
+            projectName: "Sub Array Algorithm",
+            projectLink: "https://github.com/BerkeDS/SubarrayAlgo/blob/main/SubArray.js",
+            projectLinkText: "Github Page",
+            description:  "This Algorithm finds all subarrays",
+            tecnologies: "Javascript",
+            classes: false,
+            type: "work"
+        },
 
 
         {
-            id: 4,
+            id: 5,
             projectName: "Sea Level Predictor",
             projectGitLink: "https://github.com/BerkeDS/DataAnalyzPrac/tree/main/SeaLevelPredictor",
             projectLink: "/assets/documents/seaLevelPredictor.pdf",
@@ -47,7 +57,7 @@ const initialState = {
             type: "practice"
         },
         {
-            id: 5,
+            id: 6,
             projectName: "Medical Data Analyze",
             projectGitLink: "https://github.com/BerkeDS/DataAnalyzPrac/tree/main/MedicalDataAnalyz",
             projectLink: "/assets/documents/medicalAnalyz.pdf",
@@ -58,7 +68,7 @@ const initialState = {
             type: "practice"
         },
         {
-            id: 6,
+            id: 7,
             projectName: "Demographic Data Analyz",
             projectGitLink: "https://github.com/BerkeDS/DataAnalyzPrac/tree/main/DemographicDataAnalyzer",
             projectLink: "/assets/documents/demographicDataAnalyzer.pdf",
@@ -69,7 +79,7 @@ const initialState = {
             type: "practice"
         },
         {
-            id: 7,
+            id: 8,
             projectName: "Page View Visualizer",
             projectGitLink: "https://github.com/BerkeDS/DataAnalyzPrac/tree/main/PageViewTimeSeriesVisualizer",
             projectLink: "/assets/documents/timeVisualizer.pdf",
@@ -80,7 +90,7 @@ const initialState = {
             type: "practice"
         },
         {
-            id: 8,
+            id: 9,
             projectName: "Netflix Page",
             projectLink: "/netPage",
             projectLinkText: "Go to page",
@@ -89,7 +99,7 @@ const initialState = {
             type: "practice"
         },
         {
-            id: 9,
+            id: 10,
             projectName: "Product Landing Page",
             projectLink: "/product",
             projectLinkText: "Go to page",
@@ -99,7 +109,7 @@ const initialState = {
             type: "practice"
         },
         {
-            id: 10,
+            id: 11,
             projectName: "Technical Documentation Page",
             projectLink: "/technical",
             projectLinkText: "Go to page",
@@ -109,7 +119,7 @@ const initialState = {
             type: "practice"
         },
         {
-            id: 11,
+            id: 12,
             projectName: "Tribute Page",
             projectLink: "/tribute",
             projectLinkText: "Go to page",
@@ -119,7 +129,7 @@ const initialState = {
             type: "practice"
         },
         {
-            id: 12,
+            id: 13,
             projectName: "Survey Form",
             projectLink: "/survey",
             projectLinkText: "Go to page",
