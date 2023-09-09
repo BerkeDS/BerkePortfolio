@@ -4,11 +4,11 @@ const initialState = {
     value: [
         {
             id: 1,
-            projectName: "Türkiye Earthquake Predictor",
-            projectLink: "/assets/documents/seaLevelPredictor.pdf",
-            projectLinkText: "coming soon...",
-            description:  "Predict the future earthquakes with earthquake data from boğaziçi university",
-            tecnologies: "python(pandas, seaborn, scipy), Jupyter-lab",
+            projectName: "Sub Array Algorithm",
+            projectLink: "https://github.com/BerkeDS/SubarrayAlgo/blob/main/SubArray.js",
+            projectLinkText: "Github Page",
+            description:  "This Algorithm finds all subarrays",
+            tecnologies: "Javascript",
             classes: false,
             type: "work"
         },
@@ -35,11 +35,11 @@ const initialState = {
         },
         {
             id: 4,
-            projectName: "Sub Array Algorithm",
-            projectLink: "https://github.com/BerkeDS/SubarrayAlgo/blob/main/SubArray.js",
-            projectLinkText: "Github Page",
-            description:  "This Algorithm finds all subarrays",
-            tecnologies: "Javascript",
+            projectName: "Türkiye Earthquake Predictor",
+            projectLink: "/assets/documents/seaLevelPredictor.pdf",
+            projectLinkText: "coming soon...",
+            description:  "Predict the future earthquakes with earthquake data from boğaziçi university",
+            tecnologies: "python(pandas, seaborn, scipy), Jupyter-lab",
             classes: false,
             type: "work"
         },
