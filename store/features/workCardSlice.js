@@ -80,6 +80,72 @@ const initialState = {
         },
         {
             id: 8,
+            projectName: "Currency Desktop App",
+            projectGitLink: "https://github.com/BerkeDS/DovizDesktop/tree/main/D%C3%B6viz_uyg",
+            projectLink: "/assets/images/doviz.png",
+            projectLinkText: "Project Image",
+            description:  "Simple C# app",
+            tecnologies: "C#",
+            classes: false,
+            type: "practice"
+        },
+        {
+            id: 9,
+            projectName: "Vote Desktop App",
+            projectGitLink: "https://github.com/BerkeDS/Secim/tree/main/Veri_Tabanl%C4%B1_Secim_Grafik",
+            projectLink: "/assets/images/secim.png",
+            projectLinkText: "Project Image",
+            description:  "Vote System with c# win form",
+            tecnologies: "C#",
+            classes: false,
+            type: "practice"
+        },
+        {
+            id: 10,
+            projectName: "Movie Archive",
+            projectGitLink: "https://github.com/BerkeDS/FilmArsiv/tree/main/Film_Arsivi",
+            projectLink: "/assets/images/filmArsiv.png",
+            projectLinkText: "Project Image",
+            description:  "Film Archive",
+            tecnologies: "C#",
+            classes: false,
+            type: "practice"
+        },
+        {
+            id: 11,
+            projectName: "Small Management System",
+            projectGitLink: "https://github.com/BerkeDS/NotKayit/tree/main/Not_Kayit_Sistemi",
+            projectLink: "/assets/images/notKayit.pdf",
+            projectLinkText: "Project Image",
+            description:  "Student and Teacher System",
+            tecnologies: "C#",
+            classes: false,
+            type: "practice"
+        },
+        {
+            id: 12,
+            projectName: "Compilation",
+            projectGitLink: "https://github.com/BerkeDS/DersProg/tree/main/WindowsFormsApp1",
+            projectLink: "",
+            projectLinkText: "",
+            description:  "Database Practice",
+            tecnologies: "C#",
+            classes: false,
+            type: "practice"
+        },
+        {
+            id: 13,
+            projectName: "Lacal Database",
+            projectGitLink: "https://github.com/BerkeDS/LocalDatabase/tree/main/Local_Database",
+            projectLink: "",
+            projectLinkText: "",
+            description:  "Loacal Database App",
+            tecnologies: "C#",
+            classes: false,
+            type: "practice"
+        },
+        {
+            id: 14,
             projectName: "Page View Visualizer",
             projectGitLink: "https://github.com/BerkeDS/DataAnalyzPrac/tree/main/PageViewTimeSeriesVisualizer",
             projectLink: "/assets/documents/timeVisualizer.pdf",
@@ -90,7 +156,7 @@ const initialState = {
             type: "practice"
         },
         {
-            id: 9,
+            id: 15,
             projectName: "Netflix Page",
             projectLink: "/netPage",
             projectLinkText: "Go to page",
@@ -99,7 +165,7 @@ const initialState = {
             type: "practice"
         },
         {
-            id: 10,
+            id: 16,
             projectName: "Product Landing Page",
             projectLink: "/product",
             projectLinkText: "Go to page",
@@ -109,7 +175,7 @@ const initialState = {
             type: "practice"
         },
         {
-            id: 11,
+            id: 17,
             projectName: "Technical Documentation Page",
             projectLink: "/technical",
             projectLinkText: "Go to page",
@@ -119,7 +185,7 @@ const initialState = {
             type: "practice"
         },
         {
-            id: 12,
+            id: 18,
             projectName: "Tribute Page",
             projectLink: "/tribute",
             projectLinkText: "Go to page",
@@ -129,7 +195,7 @@ const initialState = {
             type: "practice"
         },
         {
-            id: 13,
+            id: 19,
             projectName: "Survey Form",
             projectLink: "/survey",
             projectLinkText: "Go to page",
