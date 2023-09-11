@@ -28,8 +28,8 @@ const initialState = {
             projectName: "Student Management System",
             projectLink: "/assets/documents/seaLevelPredictor.pdf",
             projectLinkText: "coming soon...",
-            description:  "Predict the future sea level with the data",
-            tecnologies: "python(pandas, seaborn, scipy), Jupyter-lab",
+            description:  "University Management System",
+            tecnologies: "C#, web API, desktop",
             classes: false,
             type: "work"
         },
